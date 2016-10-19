@@ -1,0 +1,17 @@
+{
+  "name": "tdd-tutorial",
+  "version": "1.0.0",
+  "description": "Understanding variables and basic functions via TDD scenario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brant Wellons",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.16.4",
+    "mocha": "^3.1.2",
+    "tape": "^4.6.2"
+  }
+}
