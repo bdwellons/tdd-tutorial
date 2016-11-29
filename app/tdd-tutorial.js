@@ -1,5 +1,3 @@
-var _ = require('lodash');
-
 var tutorial = {};
 
 tutorial.aPublicFunction = function () {
