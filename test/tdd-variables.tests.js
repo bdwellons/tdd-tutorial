@@ -21,10 +21,6 @@ describe('Controller: tdd-variables', function () {
 		expect(_.isArray(variables.emptyArray)).to.equal(true);
 	});
 
-	it('Should have a public \'aFunction\' function', function () {
-		expect(_.isFunction(variables.aFunction)).to.equal(true);
-	});
-
 	it('Should have a public \'populatedArray\' array', function () {
 		expect(_.isArray(variables.populatedArray)).to.equal(true);
 	});

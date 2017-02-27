@@ -4,7 +4,7 @@
   "description": "Understanding variables and basic functions via TDD scenario",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test --watch"
   },
   "author": "Brant Wellons",
   "license": "ISC",
