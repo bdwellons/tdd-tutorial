@@ -4,12 +4,14 @@
   "description": "Understanding variables and basic functions via TDD scenario",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test --watch"
+    "test": "mocha ./test --watch",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha ./test"
   },
   "author": "Brant Wellons",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
     "lodash": "^4.16.4",
     "mocha": "^3.1.2",
     "tape": "^4.6.2"
