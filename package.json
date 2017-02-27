@@ -4,7 +4,7 @@
   "description": "Understanding variables and basic functions via TDD scenario",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test --watch",
+    "test": "mocha ./test --watch --recursive",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha ./test"
   },
   "author": "Brant Wellons",
